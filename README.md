@@ -22,7 +22,7 @@ on(document.body, 'click', fix(function (ev) {
 }));
 ```
 
-Or use it more clasically:
+Or use it more classically:
 
 ```js
 var fix = require('fix-ev').fix;
