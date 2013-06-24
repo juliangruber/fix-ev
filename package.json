@@ -1,7 +1,7 @@
 {
   "name": "fix-ev",
   "description": "Fix event objects in older IEs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/fix-ev.git"
@@ -16,7 +16,8 @@
     "tap": "*",
     "tape": "~1.0.4",
     "synthetic-dom-events": "~0.1.1",
-    "dom-events": "~0.1.1"
+    "dom-events": "~0.1.1",
+    "bind-component": "0.0.1"
   },
   "keywords": [
     "browser",

@@ -22,7 +22,7 @@ curry.fix = fix;
 
 function curry (fn) {
   return function (ev) {
-    fn(fix(ev));
+    fn.call(this, fix(ev));
   }
 }
 
