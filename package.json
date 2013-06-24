@@ -1,0 +1,48 @@
+{
+  "name": "fix-ev",
+  "description": "Fix event objects in older IEs",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/fix-ev.git"
+  },
+  "homepage": "https://github.com/juliangruber/fix-ev",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "*",
+    "tape": "~1.0.4",
+    "synthetic-dom-events": "~0.1.1",
+    "dom-events": "~0.1.1"
+  },
+  "keywords": [
+    "browser",
+    "browserify",
+    "internet explorer",
+    "ie",
+    "event",
+    "events"
+  ],
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "firefox/10",
+      "chrome/20..latest",
+      "safari/5.0.5..latest",
+      "opera/11.0..latest",
+      "iphone/6.0",
+      "ipad/6.0",
+      "android-browser/4.2"
+    ]
+  },
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
