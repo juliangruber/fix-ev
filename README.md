@@ -58,7 +58,7 @@ Then bundle for the browser with
 
 (MIT)
 
-Copyright (c) 2013 Julian Gruber &lt;jgruber@juliangruber.com&gt;
+Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
