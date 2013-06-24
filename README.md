@@ -4,6 +4,8 @@
 Make `Event#target`, `Event#stopPropagation()` and `Event#preventDefault()`
 work in old IEs.
 
+[![testling badge](https://ci.testling.com/juliangruber/fix-ev.png)](https://ci.testling.com/juliangruber/fix-ev)
+
 ## Usage
 
 Use `fix-ev` in functional style to fix `ev` objects:
