@@ -37,8 +37,8 @@ function curry (fn) {
 function fix (ev) {
   if (!ev) ev = window.event;
   if (!ev.target) ev.target = event.srcElement;
-  if (!ev.preventDefault) ev.preventDefault = set('returnValue', 'valse');
-  if (!ev.stopPropagation) ev.stopPropagation = set('returnValue', 'valse');
+  if (!ev.preventDefault) ev.preventDefault = set('returnValue', false);
+  if (!ev.stopPropagation) ev.stopPropagation = set('cancelBubble', false);
   return ev;
 }
 
