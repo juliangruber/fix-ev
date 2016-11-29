@@ -14,8 +14,8 @@
   "dependencies": {},
   "devDependencies": {
     "tap": "*",
-    "tape": "~1.0.4",
-    "synthetic-dom-events": "~0.1.1",
+    "tape": "~4.6.3",
+    "synthetic-dom-events": "~0.3.0",
     "dom-events": "~0.1.1",
     "bind-component": "0.0.1"
   },
