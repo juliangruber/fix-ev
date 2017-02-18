@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "*",
+    "tap": ">=10.1.2",
     "tape": "~4.6.3",
     "synthetic-dom-events": "~0.3.0",
     "dom-events": "~0.1.1",
